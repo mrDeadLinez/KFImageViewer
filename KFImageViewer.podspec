@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   
   s.subspec 'Core' do |core|
-      core.source_files = 'Core/**/*'
+      core.source_files = 'Core/**/*.swift'
       core.resources = 'Core/Resources/*.png'
   end
   
